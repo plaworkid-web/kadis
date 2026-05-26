@@ -128,20 +128,20 @@ export const TestimonialsColumn = (props: {
           <React.Fragment key={index}>
             {props.ucapan.map((item) => (
               <div
-                className="p-10 rounded-3xl border bg-card text-card-foreground shadow-lg shadow-primary/10 max-w-xs w-full"
+                className="p-5 md:p-10 rounded-2xl md:rounded-3xl border bg-card text-card-foreground shadow-lg shadow-primary/10 max-w-xs w-full"
                 key={`${item.id}-${index}`}
               >
-                <div>{item.pesan}</div>
-                <div className="flex items-center gap-2 mt-5">
-                  <div className="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-sm">
+                <div className="text-sm md:text-base">{item.pesan}</div>
+                <div className="flex items-center gap-2 mt-4 md:mt-5">
+                  <div className="h-8 w-8 md:h-10 md:w-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs md:text-sm shrink-0">
                     {item.nama.charAt(0).toUpperCase()}
                   </div>
                   <div className="flex flex-col">
-                    <div className="font-medium tracking-tight leading-5">
+                    <div className="font-medium tracking-tight leading-5 text-sm md:text-base">
                       {item.nama}
                     </div>
                     {item.jabatan && (
-                      <div className="leading-5 opacity-60 tracking-tight">
+                      <div className="leading-5 opacity-60 tracking-tight text-xs md:text-sm">
                         {item.jabatan}
                       </div>
                     )}
@@ -206,11 +206,10 @@ export function TestimonialsColumnsSection() {
 
         {/* Display Ucapan */}
         {ucapan.length > 0 && (
-          <div className="relative mt-8 flex max-h-[740px] justify-center gap-6 overflow-hidden">
+          <div className="relative mt-8 flex max-h-[740px] justify-center gap-4 md:gap-6 overflow-hidden">
             <TestimonialsColumn ucapan={col1.length > 0 ? col1 : ucapan.slice(0, 2)} duration={16} />
             <TestimonialsColumn
               ucapan={col2.length > 0 ? col2 : ucapan.slice(0, 2)}
-              className="hidden md:block"
               duration={20}
             />
             <TestimonialsColumn

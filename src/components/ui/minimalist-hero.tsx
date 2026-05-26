@@ -132,7 +132,7 @@ export const MinimalistHero = ({
             <motion.img
                 src={imageSrc}
                 alt={imageAlt}
-                className="relative z-10 h-[85vh] w-auto max-w-none object-contain object-bottom"
+                className="relative z-10 h-[55vh] md:h-[75vh] lg:h-[85vh] w-auto max-w-none object-contain object-bottom"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
@@ -146,7 +146,7 @@ export const MinimalistHero = ({
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 1.4 }}
-                className="absolute z-20 bottom-[-2%] left-1/2 -translate-x-1/2 text-center text-2xl md:text-4xl lg:text-5xl font-[800] text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] tracking-wide w-max"
+                className="absolute z-20 bottom-[-2%] left-1/2 -translate-x-1/2 text-center text-lg md:text-4xl lg:text-5xl font-[800] text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] tracking-wide w-max max-w-[90vw]"
             >
                 <span className="block">Drs. H. Sonson Mukamad</span>
                 <span className="block">Nurikhsan, M.Si.</span>
@@ -160,7 +160,7 @@ export const MinimalistHero = ({
           transition={{ duration: 0.6, delay: 1.2 }}
           className="z-20 order-3 flex items-center justify-center text-center md:justify-start"
         >
-          <h1 className="text-7xl font-[900] text-foreground md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter">
+          <h1 className="text-5xl font-[900] text-foreground md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter">
             {overlayText.part1}
             <br />
             {overlayText.part2}

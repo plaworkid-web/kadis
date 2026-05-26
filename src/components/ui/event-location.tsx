@@ -100,7 +100,7 @@ export function EventLocation() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex justify-center"
+            className="flex justify-center overflow-hidden"
           >
             <LocationMap
               location="Gedung Tampomas IPP Sumedang"
