@@ -6,6 +6,7 @@ import { TestimonialsColumnsSection } from "@/components/blocks/testimonials-col
 import ShiftingCountdown from "@/components/ui/countdown-timer";
 import { CinematicFooter } from "@/components/ui/cinematic-footer";
 import { CareerTimeline } from "@/components/ui/career-timeline";
+import { EventLocation } from "@/components/ui/event-location";
 import { MinimalistHero } from "@/components/ui/minimalist-hero";
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
       />
       <CareerTimeline />
       <ShiftingCountdown />
+      <EventLocation />
       <TestimonialsColumnsSection />
       <CinematicFooter />
     </main>
