@@ -148,7 +148,7 @@ export const MinimalistHero = ({
                 transition={{ duration: 0.6, delay: 1.4 }}
                 className="absolute z-20 bottom-[-2%] left-1/2 -translate-x-1/2 text-center text-lg md:text-4xl lg:text-5xl font-[800] text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] tracking-wide w-max max-w-[90vw]"
             >
-                <span className="block">Drs. H. Sonson Mukamad</span>
+                <span className="block">Drs. H. Sonson Mukhamad</span>
                 <span className="block">Nurikhsan, M.Si.</span>
             </motion.p>
         </div>

@@ -21,7 +21,7 @@ export default function Home() {
           { label: "KESAN & PESAN", href: "#testimonials" },
           { label: "KONTAK", href: "#contact" },
         ]}
-        mainText="Kepala Dinas Komunikasi, Informatika, Persandian dan Statistik Kabupaten Sumedang. Mengabdi sejak 1986, memasuki masa purna bakti dengan penuh kebanggaan."
+        mainText="Kepala Dinas Komunikasi dan Informatika, Persandian dan Statistik Kab. Sumedang. Mengabdi sejak 1986, memasuki masa purna bakti dengan penuh kebanggaan."
         readMoreLink="#about"
         imageSrc="/foto.png"
         imageAlt="Foto Drs. Sonson Mukhamad Nurikhsan, M.Si"

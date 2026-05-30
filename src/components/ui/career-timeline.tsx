@@ -15,8 +15,8 @@ interface TimelineItem {
 const timelineData: TimelineItem[] = [
   {
     year: "2025",
-    title: "Kepala Dinas Komunikasi, Informatika, Persandian dan Statistik",
-    organization: "Dinas Kominfo, Persandian dan Statistik Kab. Sumedang",
+    title: "Kepala Dinas Komunikasi dan Informatika, Persandian dan Statistik",
+    organization: "Dinas Komunikasi dan Informatika, Persandian dan Statistik Kab. Sumedang",
     eselon: "Eselon II.b",
     type: "career",
   },
@@ -157,7 +157,7 @@ export function CareerTimeline() {
             Perjalanan Karier
           </h2>
           <p className="mt-5 text-base leading-8 text-foreground/65">
-            40 tahun mengabdi untuk negeri, dari CPNS tahun 1986 hingga Kepala Dinas Kominfo Kabupaten Sumedang.
+            40 tahun mengabdi untuk negeri, dari CPNS tahun 1986 hingga Kepala Dinas Komunikasi dan Informatika, Persandian dan Statistik Kab. Sumedang.
           </p>
         </div>
 

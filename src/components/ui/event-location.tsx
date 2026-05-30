@@ -26,7 +26,7 @@ export function EventLocation() {
             Lokasi & Waktu
           </h2>
           <p className="mt-5 text-base leading-8 text-foreground/65">
-            Acara perpisahan purna bakti Drs. H. Sonson Mukamad Nurikhsan, M.Si.
+            Acara perpisahan purna bakti Drs. H. Sonson Mukhamad Nurikhsan, M.Si.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export function EventLocation() {
               <div>
                 <h3 className="text-lg font-bold text-foreground">Tanggal</h3>
                 <p className="text-2xl font-[800] text-foreground mt-1">
-                  Sabtu, 31 Mei 2026
+                  Minggu, 31 Mei 2026
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ export function EventLocation() {
               <div>
                 <h3 className="text-lg font-bold text-foreground">Waktu</h3>
                 <p className="text-2xl font-[800] text-foreground mt-1">
-                  09.00 WIB - Selesai
+                  07.00 WIB - Selesai
                 </p>
               </div>
             </div>
@@ -74,7 +74,10 @@ export function EventLocation() {
               <div>
                 <h3 className="text-lg font-bold text-foreground">Lokasi</h3>
                 <p className="text-xl font-[700] text-foreground mt-1">
-                  Gedung Tampomas IPP Sumedang
+                  Jogging Track IPP
+                </p>
+                <p className="text-base font-[600] text-foreground/80 mt-1">
+                  dilanjutkan di Aula Tampomas IPP Kabupaten Sumedang
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
                   Kabupaten Sumedang, Jawa Barat
@@ -103,7 +106,7 @@ export function EventLocation() {
             className="flex justify-center overflow-hidden"
           >
             <LocationMap
-              location="Gedung Tampomas IPP Sumedang"
+              location="Jogging Track & Aula Tampomas IPP Sumedang"
               coordinates="6.8388° S, 107.9188° E"
             />
           </motion.div>
