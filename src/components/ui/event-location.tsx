@@ -26,7 +26,7 @@ export function EventLocation() {
             Lokasi & Waktu
           </h2>
           <p className="mt-5 text-base leading-8 text-foreground/65">
-            Acara perpisahan purna bakti Drs. H. Sonson Mukhamad Nurikhsan, M.Si.
+            Acara perpisahan purna bakti Drs. H. Sonson Mukhammad Nurikhsan, M.Si.
           </p>
         </div>
 
@@ -74,10 +74,10 @@ export function EventLocation() {
               <div>
                 <h3 className="text-lg font-bold text-foreground">Lokasi</h3>
                 <p className="text-xl font-[700] text-foreground mt-1">
-                  Jogging Track IPP
+                  Jogging Track PPS
                 </p>
                 <p className="text-base font-[600] text-foreground/80 mt-1">
-                  dilanjutkan di Aula Tampomas IPP Kabupaten Sumedang
+                  dilanjutkan di Aula Tampomas PPS Kabupaten Sumedang
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
                   Kabupaten Sumedang, Jawa Barat
@@ -106,7 +106,7 @@ export function EventLocation() {
             className="flex justify-center overflow-hidden"
           >
             <LocationMap
-              location="Jogging Track & Aula Tampomas IPP Sumedang"
+              location="Jogging Track & Aula Tampomas PPS Sumedang"
               coordinates="6.8388° S, 107.9188° E"
             />
           </motion.div>

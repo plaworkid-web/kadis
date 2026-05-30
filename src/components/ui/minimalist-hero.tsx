@@ -148,7 +148,7 @@ export const MinimalistHero = ({
                 transition={{ duration: 0.6, delay: 1.4 }}
                 className="absolute z-20 bottom-[-2%] left-1/2 -translate-x-1/2 text-center text-lg md:text-4xl lg:text-5xl font-[800] text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] tracking-wide w-max max-w-[90vw]"
             >
-                <span className="block">Drs. H. Sonson Mukhamad</span>
+                <span className="block">Drs. H. Sonson Mukhammad</span>
                 <span className="block">Nurikhsan, M.Si.</span>
             </motion.p>
         </div>
@@ -167,28 +167,6 @@ export const MinimalistHero = ({
           </h1>
         </motion.div>
       </div>
-
-      {/* Footer Elements */}
-      <footer className="z-30 flex w-full max-w-7xl items-center justify-between">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.2 }}
-          className="flex items-center space-x-4"
-        >
-          {socialLinks.map((link, index) => (
-            <SocialIcon key={index} href={link.href} icon={link.icon} />
-          ))}
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.3 }}
-          className="text-sm font-medium text-foreground/80"
-        >
-          {locationText}
-        </motion.div>
-      </footer>
     </div>
   );
 };

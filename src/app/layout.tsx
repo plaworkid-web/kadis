@@ -12,7 +12,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Purna Bakti - Drs. Sonson Mukhamad Nurikhsan, M.Si",
+  title: "Purna Bakti - Drs. Sonson Mukhammad Nurikhsan, M.Si",
   description: "Website Perpisahan Purna Bakti Kepala Dinas Kominfo Kabupaten Sumedang",
 };
 

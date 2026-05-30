@@ -24,7 +24,7 @@ export default function Home() {
         mainText="Kepala Dinas Komunikasi dan Informatika, Persandian dan Statistik Kab. Sumedang. Mengabdi sejak 1986, memasuki masa purna bakti dengan penuh kebanggaan."
         readMoreLink="#about"
         imageSrc="/foto.png"
-        imageAlt="Foto Drs. Sonson Mukhamad Nurikhsan, M.Si"
+        imageAlt="Foto Drs. Sonson Mukhammad Nurikhsan, M.Si"
         overlayText={{ part1: "PURNA", part2: "BAKTI" }}
         socialLinks={[
           { icon: Globe, href: "https://sumedangkab.go.id" },

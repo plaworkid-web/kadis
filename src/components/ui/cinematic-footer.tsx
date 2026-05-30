@@ -203,7 +203,7 @@ const MarqueeItem = () => (
     <span className="text-primary/60">✦</span>
     <span>40 Tahun Mengabdi</span>{" "}
     <span className="text-secondary/60">✦</span>
-    <span>Drs. Sonson Mukhamad Nurikhsan, M.Si</span>{" "}
+    <span>Drs. Sonson Mukhammad Nurikhsan, M.Si</span>{" "}
     <span className="text-primary/60">✦</span>
     <span>Kadis Kominfo Sumedang</span>{" "}
     <span className="text-secondary/60">✦</span>
@@ -315,7 +315,7 @@ export function CinematicFooter() {
               <div className="flex flex-wrap justify-center gap-4 w-full">
                 <MagneticButton
                   as="a"
-                  href="https://maps.google.com/?q=Gedung+Tampomas+IPP+Sumedang"
+                  href="https://maps.google.com/?q=Gedung+Tampomas+PPS+Sumedang"
                   target="_blank"
                   className="footer-glass-pill px-10 py-5 rounded-full text-foreground font-bold text-sm md:text-base flex items-center gap-3 group"
                 >

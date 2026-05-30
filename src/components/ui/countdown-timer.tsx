@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useAnimate } from "framer-motion";
 
-// Target: Acara Perpisahan Purna Bakti - 31 Mei 2026, Jogging Track & Aula Tampomas IPP Sumedang
+// Target: Acara Perpisahan Purna Bakti - 31 Mei 2026, Jogging Track & Aula Tampomas PPS Sumedang
 const COUNTDOWN_FROM = "2026-05-31T00:00:00";
 
 const SECOND = 1000;
@@ -19,7 +19,7 @@ export default function ShiftingCountdown() {
       <div className="text-center mb-12">
         <p className="text-sm font-medium uppercase tracking-[0.3em] opacity-50 mb-4">Hitung Mundur Menuju</p>
         <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3">Acara Perpisahan Purna Bakti</h2>
-        <p className="text-base md:text-lg opacity-70">31 Mei 2026 &bull; Jogging Track &amp; Aula Tampomas IPP Sumedang</p>
+        <p className="text-base md:text-lg opacity-70">31 Mei 2026 &bull; Jogging Track &amp; Aula Tampomas PPS Sumedang</p>
       </div>
       <div className="flex w-full max-w-5xl items-center bg-transparent">
         <CountdownItem unit="Day" label="Hari" />
